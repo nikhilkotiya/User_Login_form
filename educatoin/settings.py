@@ -123,7 +123,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,"static")
 
 ]
-
+Auth_USER_MODEL = 'accounts.Account'
 AUTHENTICATION_BACKENDS = (
         'django.contrib.auth.backends.ModelBackend',
     )
